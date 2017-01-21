@@ -13,7 +13,6 @@ public class Dijkstra {
     public static int[] B;
 
     public static void main(String[] args) {
-        BufferedReader br = null;
         String file;
         if(args.length == 0) {
             file = "dijkstraData.txt";

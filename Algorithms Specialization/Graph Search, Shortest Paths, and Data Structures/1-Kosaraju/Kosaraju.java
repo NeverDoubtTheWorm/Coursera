@@ -16,7 +16,6 @@ public class Kosaraju {
     public static Map<Integer, Integer> SCCsizes;
 
     public static void main(String[] args) {
-        BufferedReader br = null;
         String file;
         if(args.length == 0) {
             file = "SCC.txt";
