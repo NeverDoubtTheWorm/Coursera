@@ -25,7 +25,7 @@ public class Median_Maintenance {
         long sum = 0;
         try {
             br = new BufferedReader(new FileReader(file));
-            MedianHeap medHeap = new MedianHeap();
+            medHeap = new MedianHeap();
             String line = null;
             int in = 0;
 
